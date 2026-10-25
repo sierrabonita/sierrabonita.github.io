@@ -1,1 +1,7 @@
-title: Ankin
+# タブの題は _layouts/default.html で組む。サイトの名前は使わず、
+# アプリのページにだけアプリの名前を持たせて「利用規約 | Ankin」の形にする。
+defaults:
+  - scope:
+      path: "rn-ankin-legal"
+    values:
+      app: Ankin
